@@ -1,0 +1,58 @@
+body {
+    background-color: lightblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper {
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);   
+    width: 30vw;
+    box-shadow: 1px 1px 10px 1px rgba(32,40,43,0.59);
+}
+
+.billsplitter__header {
+    background-color: #50CB93;
+    color: white; 
+    height: 12vh;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.billsplitter__content {
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vh;
+    padding: 10px;
+}
+
+.billsplitter__content label {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.billsplitter__content input, .billsplitter__content select {
+    padding: 4px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.billsplitter__button {
+    background-color: #50CB93;
+    color: white; 
+    border: none;
+    width: 20vw;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .3s;
+}  
+
+.billsplitter__button:hover {
+    background-color: #40BA82;
+}
